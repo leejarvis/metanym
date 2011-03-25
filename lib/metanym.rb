@@ -4,6 +4,7 @@ require 'excon'
 require 'nokogiri'
 
 class Metanym
+  VERSION = "0.1.0"
   URL = "http://thesaurus.com/browse/"
 
   def initialize(query)
